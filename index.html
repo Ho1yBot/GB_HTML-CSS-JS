@@ -15,7 +15,27 @@
         let nick = prompt("Введите ваше имя")
         alert(`Привет ` + nick);
     }
-    //out()
+    
+    // Задание 2: Создайте всплывающее окно, которое спрашивает ввод любимого фильма и если ввод неверен, 
+    // то программа отправляет запрос alert “Попробуйте ещё раз”. В функции должны быть минимум 2 условия.
+    let array = ["Интерстеллар", "Начало", "Сплит"]
+    function film(){
+        let request = prompt('Какой ваш любимый фильм из этого списка: ' + array +' ?')
+        switch(request){
+            case "Интерстеллар":
+                alert('Хайпово');
+                break;
+            case "Начало":
+                alert('Норм');
+                break;
+            case "Сплит":
+                alert('Неплохо');
+                break;
+            default:
+                alert("Попробуй ещё раз!!!!!");
+                break;
+        }
+    }
 </script>
 
 <body>
@@ -34,6 +54,7 @@
     <main>
         <div>
             <button id="myButton" onclick="out()"><h1>Задание 1</h1></button>
+            <button id="myButton" onclick="film()"><h1>Задание 2</h1></button>
         </div>
         <div class="container">
             <h2 id="about">Обо мне</h2>
