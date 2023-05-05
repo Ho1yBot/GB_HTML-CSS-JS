@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    padding: 13px 0 10px 0;
+}
+
+.head-logo{
+
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.main{
+    margin: 38px 0 176px 0;
+    padding: 21px 0;
+}
+
+.main-content{
+
+}
+
+.main-text{
+    margin: 0 56px 0 0;
+}
+
+.main-name{
+    margin: 17px 56px 14px 0;
+}
+
+.main-p{
+    margin: 17px 56px 14px 0;
+}
+
+.button{
+    margin: 11px 7px 8px 2px;
+}
+
+.footer{
+
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.footer-logo{
+    
+}
+
+.photo{
+    height: 30px;
+}
+
+
